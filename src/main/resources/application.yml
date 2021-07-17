@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: application,TEST1.dataSource,occupation
+  meta: '@apollo.meta@'
+app:
+  id: SampleApp
